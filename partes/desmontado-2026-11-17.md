@@ -23,11 +23,11 @@ Hallazgo que necesita decisión del usuario: **los enlaces de la descripción de
   - p35, p37, L2, L3 y L4 antiguos pasados a oculto (25);
   - descripción nueva de L1 (5).
 - Subir, programar y consultar el estado son gratis.
-- Saldo de la cuenta (compartida por los tres canales) a las 07:05: **524**.
+- Saldo final de la cuenta (compartida por los tres canales), a las 08:15: **524**.
 - Desde la orden de las 00:18, Desmontado lleva 30 de sus 200. Previsto: 5 más para poner en la descripción de L5 los enlaces a sus Shorts cuando estén.
 
 **ElevenLabs** (cuenta compartida con los otros dos canales)
-- Saldo a las 03:45: 94.362 caracteres libres. **Saldo a las 07:05: 22.674**, y no se renueva hasta el 30 nov. Los otros canales también la están usando.
+- Saldo a las 03:45: 94.362 caracteres libres. **Saldo a las 07:05: 22.674** (en el resto del turno ya no se gastó voz), y no se renueva hasta el 30 nov. Los otros canales también la están usando.
 - Usados por Desmontado en este turno: unos 18.200. Detalle:
   - L2 v2: b2, b3, b5, b8, b10 y b11;
   - d12, c10, f12;
@@ -46,8 +46,8 @@ Hallazgo que necesita decisión del usuario: **los enlaces de la descripción de
 | L4 frenos de aire | Programado jue 26, 15:00 | 10/17 | Igual que L3 | L4 v2 (7:31): cierre f12 con CTA hacia L2, miniatura «FRENA SOLO» + 2 variantes, descripción con fuentes (CDL, Fundación Mapfre). **Sustituido en su hueco**; revisado igual que L2 (−14,2 LUFS) |
 | L5 diferencial | Lun 30, 15:00 | 10/17 | CTA; miniatura de 6 palabras | d12 con CTA hacia L3, 3 miniaturas («¿QUÉ HACE ESTO?»…). **Montado (6:29) y programado**, revisado igual. Sin enlaces a Shorts en la descripción: p44 y p45 se rehacen (sección 4) |
 | L6 turbo | Jue 3 dic | 9/17 | Menos de 6 min; CTA | Alargado a ≈6:20 (t14 turbo roto, con fuentes), preguntas en t4/t6/t7/t9, CTA único hacia L1, título con cifra, 3 miniaturas. **Todos los capítulos hechos; montado (6:23), revisado y subido** (ver sección 4) |
-| L7 embrague | Lun 7 dic | 9/17 | Menos de 6 min; CTA | Alargado a ≈6:15 (e12 embrague gastado, con fuentes), preguntas, CTA hacia L3, título con pregunta, 3 miniaturas. **Renderizando** (e1 hecho, e2 en marcha) |
-| L8 frenos/ABS | Jue 10 dic | 8/17 | Menos de 6 min; título inexacto; CTA | **Hecho hoy:** 3 capítulos nuevos con fuentes (h11 el líquido de frenos que hierve, h12 cuándo cambiar las pastillas, h13 el freno de mano de botón), preguntas en h2/h4/h8, CTA único hacia L4, título nuevo «¿Por qué vibra el pedal del freno? Así funcionan tus frenos (Animación 3D)» y 3 miniaturas. ≈6:10. En cola de render |
+| L7 embrague | Lun 7 dic | 9/17 | Menos de 6 min; CTA | Alargado a ≈6:15 (e12 embrague gastado, con fuentes), preguntas, CTA hacia L3, título con pregunta, 3 miniaturas. **Renderizando**: e1–e3 hechos al cierre, e4 en marcha |
+| L8 frenos/ABS | Jue 10 dic | 8/17 | Menos de 6 min; título inexacto; CTA | **Hecho hoy:** 3 capítulos nuevos con fuentes (h11 el líquido de frenos que hierve, h12 cuándo cambiar las pastillas, h13 el freno de mano de botón), preguntas en h2/h4/h8, CTA único hacia L4, título nuevo «¿Por qué vibra el pedal del freno? Así funcionan tus frenos (Animación 3D)» y 3 miniaturas. ≈6:10. **Renderizando**: h1–h5 hechos al cierre, h11 en marcha |
 | L9 suspensión | Lun 14 dic | 9/17 | Menos de 6 min; CTA | **Hecho hoy:** 4 capítulos nuevos con fuentes (s11 amortiguador de gas, s12 magnetorreológico «hasta 1.000 veces por segundo», s13 suspensión neumática, s14 por qué se hunde el morro al frenar), preguntas en s3/s5/s7/s8, CTA único hacia L8, título con pregunta y 3 miniaturas. ≈6:20. En cola de render |
 
 ## 4. Vídeos hechos y programados en este turno
@@ -60,7 +60,7 @@ Hallazgo que necesita decisión del usuario: **los enlaces de la descripción de
 | L4 v2 (frenos de aire, 7:31) | Ver la tabla | jue 26 nov, 15:00 | https://www.youtube.com/watch?v=JR_Ab1lIedo |
 | L5 (diferencial, 6:29) | Ver la tabla | lun 30 nov, 15:00 | https://www.youtube.com/watch?v=r_GHaFMDY4c |
 | p54 (lavadora con hormigón, 42 s) | Short nuevo con fondo de baño/cocina. El primer fotograma marcaba «+0 KG»: se arregló superponiendo el panel «+20 KG» en el primer segundo | sáb 28 nov, 19:00 | https://www.youtube.com/watch?v=PSf81JkhNOQ |
-| L6 v2 (turbo, 6:23) | Ver la tabla | jue 3 dic, 15:00 | L6_URL |
+| L6 v2 (turbo, 6:23) | Ver la tabla | jue 3 dic, 15:00 | https://www.youtube.com/watch?v=NZBCFPk4ES8 |
 | Miniaturas v2 de L5–L9 | 3 variantes por largo; la «a» ya está en la biblioteca de vidIQ | — | `desmontado/LN-miniatura-v2*.jpg` |
 
 **No programados a propósito:**
@@ -79,9 +79,9 @@ Hallazgo que necesita decisión del usuario: **los enlaces de la descripción de
 - El primer montaje de L2 tenía en b9 los rótulos «BOMBA» y «DEPÓSITO» cortados por el borde. Se abrió la cámara, se volvió a renderizar b9 y se montó de nuevo antes de subirlo.
 
 ## 7. Siguiente turno
-1. **Render (cuello de botella).** Quedan unos 38 capítulos: L7 (e2–e12), L8 (h4–h13) y L9 (s1–s14), con unos 10–15 min por capítulo y proceso. `workerL` va por delante (L8 y luego L9) y `workerL2` por detrás (L7).
+1. **Render (cuello de botella).** Quedan unos 32 capítulos: L7 (e4–e12), L8 (h11–h13 y h6–h10) y L9 (s1–s14), con unos 10–15 min por capítulo y proceso. `workerL` va por delante (L8 y luego L9) y `workerL2` por detrás (L7).
 2. **Shorts** (todos con voz): p44, p45 y p46 hay que renderizarlos de nuevo con el primer fotograma arreglado. Faltan p47–p53 y p55. Están en `cola_pend.txt`; ir pasándolos a `cola.txt` por fecha (p55 es del 29 nov). Ojo: mientras haya Shorts en `cola.txt`, `workerL2` se para.
-3. Al subir p44/p45 y p46/p47: poner en la descripción de L5 y de L6 los enlaces a sus Shorts (5 créditos cada uno).
+3. Al subir p44/p45 y p46/p47: poner en la descripción de L5 y de L6 los enlaces a sus Shorts (5 créditos cada uno). En `meta2.json` ya está el enlace del largo en la primera línea de p44–p48.
 4. L7, L8 y L9: montar, revisar, subir y programar en cuanto tengan todos los capítulos. Los metadatos ya están en `largos_v2.json` y las miniaturas «a» ya están en vidIQ.
 5. 48 h después de cada estreno (L2 el sáb 21): mirar CTR y retención en Studio y apuntarlo en el documento de largos.
 6. ElevenLabs: quedan unos 22.700 caracteres hasta el 30 nov para los tres canales. Desmontado ya tiene grabadas todas las voces del plan hasta el 15 dic.
