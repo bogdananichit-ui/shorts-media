@@ -87,4 +87,4 @@ Hallazgo que necesita decisión del usuario: **los enlaces de la descripción de
 6. ElevenLabs: quedan unos 22.700 caracteres hasta el 30 nov para los tres canales. Desmontado ya tiene grabadas todas las voces del plan hasta el 15 dic.
 
 ## 8. Motivo de parada
-Hora (08:41). Quedan dos procesos de render en marcha con la cola ordenada por fecha.
+Hora (08:41). Al cerrar quedan dos procesos de render en marcha, con la cola ordenada por fecha. Es probable que el entorno los pare al acabar el turno. Al empezar el siguiente, mirar `workerL.log` y `workerL2.log` y relanzarlos si hace falta (`setsid nohup ./workerL.sh …`). Un capítulo que se corte a medias se quita de `hechosL.txt` para que se vuelva a hacer.
