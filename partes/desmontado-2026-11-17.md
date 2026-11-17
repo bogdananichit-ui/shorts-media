@@ -1,6 +1,8 @@
 # Parte de Desmontado — 17 nov 2026
 
-Turno de producción: empezó a las 03:41 (el aviso llegó antes de las 04:31 previstas) y está **en curso**. Este parte se va actualizando y se cierra a las 08:41 como muy tarde.
+Turno de producción: de 03:41 a 08:41 (hora de España). El aviso llegó a las 03:41, antes de las 04:31 previstas; como el análisis ya estaba terminado, se empezó la producción.
+
+**Resumen:** L2 y L3 rehechos y ya sustituidos en su hueco (L4 y L5 en curso al cierre, ver sección 4). La descripción de L1 está mejorada. L8 y L9 están alargados a más de 6 min en guion, voz y escenas. L6–L9 aún no tienen ningún capítulo renderizado: es el cuello de botella de los próximos turnos.
 
 ## 1. Análisis (directrices, sección 0)
 **Terminado a las 00:40** → `claude/desmontado-analisis.md` (versión 3). Incluye:
@@ -17,37 +19,59 @@ Hallazgo que necesita decisión del usuario: **los enlaces de la descripción de
 ## 2. Créditos
 **vidIQ**
 - Gastados por Desmontado el 17 nov antes de la orden de ahorro: unos 165, todos en investigación.
-- Saldo a las 00:20: 564.
-- Gastados en este turno (en curso): **5**, por un `update_video` que pasó el p35 antiguo a oculto.
+- Gastados en este turno: **CRED_TURNO**, todos en `update_video` (5 cada uno):
+  - p35, p37, L2, L3 y L4 antiguos pasados a oculto;
+  - descripción de L1;
+  - DESC_L5
+- Subir, programar y consultar el estado son gratis.
+- Saldo final de la cuenta (compartida por los tres canales): **SALDO_VIDIQ**.
+- Tope de Desmontado hasta el 12 dic: 200. Gastado hasta ahora: unos CRED_TOTAL.
 
-**ElevenLabs**
-- Saldo a las 03:45: 94.362 caracteres libres. Es una cuenta compartida con los otros dos canales.
-- Usados en este turno: unos 5.800 (L2 v2: b2, b3, b5, b8, b10 y b11; d12; p54 y p55).
+**ElevenLabs** (cuenta compartida con los otros dos canales)
+- Saldo a las 03:45: 94.362 caracteres libres. Saldo al cierre: SALDO_11.
+- Usados por Desmontado en este turno: unos USO_11. Detalle:
+  - L2 v2: b2, b3, b5, b8, b10 y b11;
+  - d12, c10, f12;
+  - p54 y p55;
+  - L6 v2: t4, t6, t7, t9, t11 y t14;
+  - L7 v2: e3, e5, e7, e11 y e12;
+  - L8 v2: h2, h4, h8, h10, h11, h12 y h13;
+  - L9 v2: s3, s5, s7, s8, s10, s11, s12, s13 y s14.
 
 ## 3. Auditoría de los largos (sección 2 de las directrices)
-| Largo | Estado | Nota | Qué falla | Qué se hace |
+| Largo | Estado | Nota antes | Qué fallaba | Qué se ha hecho |
 |---|---|---|---|---|
-| L1 motor (6:01) | Publicado 16 nov | 9/17 | Miniatura de 5 palabras; sin «¿y por qué?» cada 45–60 s; CTA a comentarios; cifras sin fuente citada; descripción sin enlaces | Solo metadatos: descripción con enlaces y fuentes (pendiente, 5 créditos); test A/B de miniatura en Studio |
-| L2 camión de basura (4:43) | Programado jue 19, 15:00 | 9/17 | Menos de 6 min; CTA; preguntas; miniatura; enlaces | **Rehecho como L2 v2 (≈6:40)**: b9 válvula de seguridad, b10 carga lateral y b11 pilas que incendian camiones (con fuentes), preguntas cada ≤60 s, CTA único hacia L1 y 3 miniaturas. Se sustituye en el mismo hueco |
-| L3 cambio automático (7:00) | Programado lun 23 | 10/17 | CTA; miniatura de 4 palabras; enlaces; preguntas | Nuevo cierre c10 (CTA hacia L1), 3 miniaturas y descripción con enlaces. Se sustituye en su hueco. Las preguntas quedan anotadas |
-| L4 frenos de aire (7:31) | Programado jue 26 | 10/17 | Igual que L3 | Nuevo cierre f12 (CTA hacia L2), 3 miniaturas y descripción. Se sustituye en su hueco |
-| L5 diferencial (6:25) | En producción | 10/17 | CTA; miniatura de 6 palabras | d12 con CTA hacia L3 y 3 miniaturas hechas. Falta montar |
-| L6 turbo (5:43) | En producción | 9/17 | Menos de 6 min; CTA | Hay que alargarlo. No se programa hasta pasar la lista |
-| L7 embrague (5:34) | En producción | 9/17 | Menos de 6 min; CTA | Igual que L6 |
-| L8 frenos/ABS (4:34) | En producción | 8/17 | Menos de 6 min; título inexacto; CTA | Alargar y cambiar el título |
-| L9 suspensión (4:03) | En producción | 9/17 | Menos de 6 min; CTA | Alargar |
+| L1 motor (6:01) | Publicado 16 nov | 9/17 | Miniatura de 5 palabras; sin «¿y por qué?» cada 45–60 s; CTA a comentarios; cifras sin fuente citada; descripción sin enlaces | **Descripción nueva**: capítulos, 4 Shorts, siguiente vídeo (L2 v2) y fuentes de las cifras (Heywood 1988; RSC). Falta el test A/B de miniatura en Studio (usuario) |
+| L2 camión de basura | Programado jue 19, 15:00 | 9/17 | Menos de 6 min; CTA; preguntas; miniatura; enlaces | **Sustituido por L2 v2 (6:31)**: válvula de seguridad, carga lateral y pilas que incendian camiones (con fuentes); preguntas cada ≤60 s; CTA único hacia L1; miniatura «¿CÓMO CABE TODO?» + 2 variantes; descripción con capítulos, Shorts, siguiente vídeo y fuentes. Revisado: 10 fotogramas, primer minuto sin silencios, −14,2 LUFS. Se corrigió un plano de b9 con rótulos cortados antes de subir |
+| L3 cambio automático | Programado lun 23, 15:00 | 10/17 | CTA; miniatura de 4 palabras; enlaces | **Sustituido por L3 v2 (7:03)**: cierre c10 con CTA único hacia L1, miniatura «¿QUIÉN CAMBIA?» + 2 variantes y descripción con capítulos y enlaces. Revisado igual que L2. Queda anotado: faltan «¿y por qué…?» intermedios (habría que rehacer voces de capítulos viejos) |
+| L4 frenos de aire | Programado jue 26, 15:00 | 10/17 | Igual que L3 | L4 v2 (7:31): cierre f12 con CTA hacia L2, miniatura «FRENA SOLO» + 2 variantes, descripción con fuentes (CDL, Fundación Mapfre). ESTADO_L4 |
+| L5 diferencial | Lun 30, 15:00 | 10/17 | CTA; miniatura de 6 palabras | d12 con CTA hacia L3, 3 miniaturas («¿QUÉ HACE ESTO?»…). ESTADO_L5 |
+| L6 turbo | Jue 3 dic | 9/17 | Menos de 6 min; CTA | Alargado a ≈6:20 (t14 turbo roto, con fuentes), preguntas en t4/t6/t7/t9, CTA único hacia L1, título con cifra, 3 miniaturas. **Renderizando**: t1–T_HECHOS hechos |
+| L7 embrague | Lun 7 dic | 9/17 | Menos de 6 min; CTA | Alargado a ≈6:15 (e12 embrague gastado, con fuentes), preguntas, CTA hacia L3, título con pregunta, 3 miniaturas. **Renderizando** (E_HECHOS) |
+| L8 frenos/ABS | Jue 10 dic | 8/17 | Menos de 6 min; título inexacto; CTA | **Hecho hoy:** 3 capítulos nuevos con fuentes (h11 el líquido de frenos que hierve, h12 cuándo cambiar las pastillas, h13 el freno de mano de botón), preguntas en h2/h4/h8, CTA único hacia L4, título nuevo «¿Por qué vibra el pedal del freno? Así funcionan tus frenos (Animación 3D)» y 3 miniaturas. ≈6:10. En cola de render |
+| L9 suspensión | Lun 14 dic | 9/17 | Menos de 6 min; CTA | **Hecho hoy:** 4 capítulos nuevos con fuentes (s11 amortiguador de gas, s12 magnetorreológico «hasta 1.000 veces por segundo», s13 suspensión neumática, s14 por qué se hunde el morro al frenar), preguntas en s3/s5/s7/s8, CTA único hacia L8, título con pregunta y 3 miniaturas. ≈6:20. En cola de render |
 
-## 4. Vídeos hechos en este turno
-| Vídeo | Qué | Programado | Enlace |
+## 4. Vídeos hechos y programados en este turno
+| Vídeo | Qué | Programado (España) | Enlace |
 |---|---|---|---|
-| p35 v2 (4 tiempos) | Primer fotograma nuevo: contador «25 VECES POR SEGUNDO» (experimento 1) | mar 17 nov, 13:00 | https://www.youtube.com/watch?v=W48m-axy1mU |
-| p37 v2 (junta de culata) | Primer fotograma nuevo: aguja de la temperatura grande y en rojo (experimento 1) | en render | — |
-| L2 v2 | Ver la tabla | en render | — |
-| p54 (lavadora con hormigón) y p55 (tubo de la caldera) | Shorts nuevos para el tramo 28 nov–15 dic, con fondo de cocina (variar la plantilla) | escenas hechas; render tras los largos | — |
+| p35 v2 (4 tiempos) | Primer fotograma: contador «25 VECES POR SEGUNDO» (experimento 1) | mar 17 nov, 13:00 | https://www.youtube.com/watch?v=W48m-axy1mU |
+| p37 v2 (junta de culata) | Primer fotograma: aguja de la temperatura grande y en rojo (experimento 1) | mar 17 nov, 21:30 | https://www.youtube.com/watch?v=oX0b5575Z3Q |
+| L2 v2 (camión de basura, 6:31) | Ver la tabla | jue 19 nov, 15:00 | https://www.youtube.com/watch?v=56o_aROUxEc |
+| L3 v2 (cambio automático, 7:03) | Ver la tabla | lun 23 nov, 15:00 | https://www.youtube.com/watch?v=3qthXBwtfo8 |
+FILAS_EXTRA
 
-## 5. Cambios en lo ya programado
-- p35 antiguo (`PXy4RANBI1o`) pasado a **oculto** (no se publicará). El usuario puede borrarlo en Studio.
+## 5. Cambios en lo ya programado o publicado
+- Pasados a **oculto** (no se publicarán; el usuario puede borrarlos en Studio): p35 antiguo `PXy4RANBI1o`, p37 antiguo `Ypt5HwhYHOY`, L2 antiguo `rtRmCKaaT-4`, L3 antiguo `ww4_MEmOZmg`OCULTO_L4.
+- L1 (`QHadhLdSwEg`): descripción nueva.
+- **Para el usuario, en Studio:** los Shorts embudo de L2 (`B3o2Wo9jPvE`, `9QYNLbjHy2U`), L3 (`Gak3BMaIZNE`, `iVtGZ7_FZuU`, `g7shFkoCInU`) y L4 (`td-tWpMcvXI`, `v8xk6FXlevc`, `xpkKoWOn_hY`) tenían como largo el vídeo antiguo. Hay que cambiar su «Vídeo relacionado» al largo nuevo. Sus descripciones no se han tocado: costaría 40 créditos y ese enlace no se puede pulsar.
 
 ## 6. Fallos y avisos
-- El entorno se reinició hacia las 00:35 y los procesos de render se pararon. Se relanzaron a las 03:45.
-- El aviso de producción llegó a las 03:41, no a las 04:31. Como el análisis ya estaba terminado, se empezó la producción.
+- El entorno se reinició hacia las 00:35 y los procesos de render se pararon. Se relanzaron a las 03:45. t1 se cortó y se volvió a poner en cola.
+- Al revisar la cola apareció que **L6–L9 no tenían ningún capítulo renderizado**. La cola se reordenó por fecha: L2–L5 primero; luego L6 y L8 por un lado, y L7 por el otro. Con 2 CPU sale más o menos un capítulo cada 10–15 min por proceso.
+- El primer montaje de L2 tenía en b9 los rótulos «BOMBA» y «DEPÓSITO» cortados por el borde. Se abrió la cámara, se volvió a renderizar b9 y se montó de nuevo antes de subirlo.
+
+## 7. Siguiente turno
+PENDIENTES
+
+## 8. Motivo de parada
+MOTIVO
