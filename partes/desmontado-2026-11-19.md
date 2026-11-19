@@ -1,6 +1,6 @@
 # Parte de Desmontado — 19 nov 2026
 
-Turno: de 00:54 a ESTADO_FIN (hora de España). Lo abre la orden del capitán del 19 nov: retomar la sección A (terminar lo empezado), que ningún día se quede sin vídeo y, en Desmontado, como mucho 2 Shorts al día.
+Turno: de 00:54 a 05:50 (hora de España). Lo abre la orden del capitán del 19 nov: retomar la sección A (terminar lo empezado), que ningún día se quede sin vídeo y, en Desmontado, como mucho 2 Shorts al día.
 
 **Resumen:**
 - Toda la cola de render de Desmontado está terminada: L7, L8 y L9, y los Shorts p44–p53 y p55.
@@ -44,7 +44,7 @@ Este chat solo tiene el entorno de Desmontado. Las subidas de vc10 (Visceral) y 
 | p50 por qué rasca una marcha (L7) | vie 11 dic, 15:00 | En GitHub. Falta el ID de L7 |
 | p51 por qué vibra el pedal (L8) | sáb 12 dic, 15:00 | En GitHub. Falta el ID de L8 |
 | p52 pedal de freno duro (L8) | dom 13 dic, 15:00 | En GitHub. Falta el ID de L8 |
-| L9 suspensión | lun 14 dic, 15:00 | En GitHub y en vidIQ. Falta el ID de L8 para el enlace de «Siguiente vídeo» |
+| L9 suspensión | lun 14 dic, 15:00 | En GitHub y en vidIQ (uploadId `b2e083ac-558e-4cdf-bdf4-0b7aad51d897`). Falta el ID de L8 para el enlace de «Siguiente vídeo» |
 | p53 prueba de los amortiguadores (L9) | mar 15 dic, 15:00 | En GitHub. Falta el ID de L9 |
 
 - **Subidas a YouTube hoy:** 2 de 2 bien (p44 y p47), sin `uploadLimitExceeded`. No se intentaron más porque se bloqueó el permiso.
@@ -72,4 +72,4 @@ Este chat solo tiene el entorno de Desmontado. Las subidas de vc10 (Visceral) y 
 ## 7. Fallos y motivo de parada
 - Los procesos de render se paran cuando se cierra el turno. Este turno los ha tenido funcionando hasta terminar toda la cola.
 - Hay que relanzarlos si se rehace algo.
-- **Motivo de parada:** MOTIVO
+- **Motivo de parada:** no queda nada por renderizar. Lo único pendiente es publicar, y eso necesita el permiso del usuario.
