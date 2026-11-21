@@ -28,3 +28,33 @@ Dejé creados **14 borradores** completos (título, descripción, etiquetas, pú
 ## Créditos
 - **vidIQ:** 0 créditos. Quedan 165 de 200.
 - **ElevenLabs:** 0 caracteres.
+
+## Actualización a las 09:15 Madrid: 10 subidas
+| Vídeo | ID de YouTube | Publicación (Madrid) |
+|---|---|---|
+| s21 umami | AqQIYHEtCCs | lun 30 nov, 14:00 |
+| s22 huevo que flota | 3sXCHOAQhCU | lun 30 nov, 20:00 |
+| s23 anacardos | qKUAL8wIKfY | mar 1 dic, 14:00 |
+| s24 agua con gas | Py9TLEYejy4 | mar 1 dic, 20:00 |
+| L9 v2 patatas de bolsa | CUIrqgO9Bss | mié 2 dic, 14:00 |
+| C11 se ablandan | oARUtPB-GH4 | mié 2 dic, 14:00 |
+| C12 acrilamida | wCPB6Cpm3-c | mié 2 dic, 20:00 |
+| s25 plátano en la nevera | PJjaEVJUWl0 | jue 3 dic, 14:00 |
+| s26 pimientos | EIeZ5UZRDJ8 | jue 3 dic, 20:00 |
+| s27 bolsa de patatas | gSVoaf36HLo | vie 4 dic, 14:00 |
+
+- **Fallida:** s28, por el tope de vidIQ (10 al día). Se confirma el reinicio a las 09:00 de Madrid.
+- **Pendientes:** s28, s29 y s31–s34, en borradores. Se publican **mañana, 22 nov, a las 09:10** (`trig_01MorEb8…`). Con eso todo lo empezado queda programado hasta el 7 dic.
+- **Créditos:** 0 de vidIQ (quedan 165 de 200) y 0 caracteres de ElevenLabs.
+
+### Para el capitán en Studio
+**«Vídeo relacionado»:**
+- C9 (Y6MxKB2OHHI) y C10 (H3dA2N0tanE) → L5 v2 (OeIUhYiW2r8).
+- C11 (oARUtPB-GH4) y C12 (wCPB6Cpm3-c) → L9 v2 (CUIrqgO9Bss).
+- Siguen pendientes los del parte del 19 nov:
+  - C1 y C2 → L1 v2.
+  - C7 y C8 → L4 v2.
+
+**Otras comprobaciones:**
+- BRMSctql5Lc sin fecha.
+- «No está creado para niños».
