@@ -58,3 +58,60 @@ Dejé creados **14 borradores** completos (título, descripción, etiquetas, pú
 **Otras comprobaciones:**
 - BRMSctql5Lc sin fecha.
 - «No está creado para niños».
+
+## Actualización 16:15 — orden del capitán del 21 nov (llenar diciembre)
+
+### Programado y cobertura
+- **Ya en YouTube (programado):** todo hasta el 4 dic a las 14:00 (s27).
+- **En borrador con su fecha puesta:** 34 vídeos, del 4 dic (s28) al 21 dic, a 2 Shorts al día desde el 8 dic. El calendario completo está en `claude/desmenuzado-calendario.md`.
+- **El canal queda cubierto hasta el 21 dic** en cuanto se publiquen los borradores.
+- **Hoy no se ha publicado nada:** el tope de vidIQ de hoy ya estaba gastado. Hay una tarea programada que publica por orden de fecha:
+  - 22 nov, 09:20 (`trig_017jV2Dg…`): 10.
+  - 23 nov: 10.
+  - 24 nov: 10.
+  - 25 nov: 4.
+  - Todo debería quedar programado antes del 30 nov.
+- **Fallo de vidIQ encontrado y corregido:** s35, C13, s36 y C14 tenían la fecha vacía en el borrador. Si se hubieran publicado así, habrían salido al momento. Ahora tienen su fecha, y la tarea comprueba la fecha de cada borrador antes de publicarlo.
+
+### Vídeos nuevos (todos revisados: 5 fotogramas cada uno y entre −14,3 y −15,0 LUFS)
+- **Shorts con voz nueva (18):** s35–s52.
+- **Clips de los largos (12):** C13, C14, C17, C18, C19, C20, C21, C23 y C26 (L1/L4/L5/L9), más C25. Todos tienen:
+  - un rótulo con la pregunta en el primer fotograma (nuevo: `rotulo.py`);
+  - el enlace al largo en la primera línea de la descripción.
+  - A C13, C14 y C17 se les cambió el vídeo en el borrador por la versión con rótulo.
+- **Descartados:**
+  - C15: repite C2 (piel de la salchicha).
+  - C24: repite C11 (patatas que se ablandan).
+  - C16 y C22: encuadre malo.
+  - En su lugar se hicieron C25 (sal de las patatas de bolsa) y C26 (salchicha y mayonesa).
+- **Corregido antes de subir:** el final de s40 (el vaso y la remolacha se salían del encuadre).
+
+### Caracteres de ElevenLabs (presupuesto de Desmenuzado: 9.000)
+| Vídeo | Caracteres | Vídeo | Caracteres | Vídeo | Caracteres |
+|---|---|---|---|---|---|
+| s35 | 492 | s41 | 470 | s47 | 496 |
+| s36 | 485 | s42 | 487 | s48 | 508 |
+| s37 | 484 | s43 | 492 | s49 | 533 |
+| s38 | 487 | s44 | 503 | s50 | 474 |
+| s39 | 533 | s45 | 490 | s51 | 487 |
+| s40 | 473 | s46 | 480 | s52 | 454 |
+
+- **Total:** 8.828 de 9.000. Quedan 172, que no alcanzan para otro guion.
+- **Contador de la cuenta:** unos 306.435 de 320.281, así que el saldo total ronda los 13.800.
+- **Clips:** 0 caracteres.
+- **vidIQ:** 0 créditos usados en este turno. Quedan 165 de 200.
+
+### Para el capitán en Studio
+- **«No está creado para niños»:** en todos los vídeos nuevos (s28–s52 y los clips C13–C26) cuando aparezcan en Studio.
+- **«Vídeo relacionado»** (los IDs saldrán al publicarse; se apuntarán en `registro.md`):
+  - C13, C14, C23 y C26 → L1 v2 (2i7Lkg1wQtI).
+  - C17, C18 y C19 → L4 v2 (-YEdYigtPso).
+  - C20 → L5 v2 (OeIUhYiW2r8).
+  - C21 y C25 → L9 v2 (CUIrqgO9Bss).
+- **Pendientes de partes anteriores:**
+  - C1 y C2 → L1 v2.
+  - C7 y C8 → L4 v2.
+  - C9 y C10 → L5 v2.
+  - C11 y C12 → L9 v2.
+  - Comprobar que BRMSctql5Lc sigue sin fecha.
+- **Borradores de vidIQ que no hay que publicar:** C15 (`04e9d453…`) y C24 (`376071e9…`). Se pueden borrar desde vidIQ si molestan.
